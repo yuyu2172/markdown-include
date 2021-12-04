@@ -58,6 +58,10 @@ You can use this to include lines in a different order than the original file. B
 also means that if you want to preserve the original order, you have to pay attention
 to the order in which you specify the lines.
 
+If there are leading tabs and spaces before the include statement, 
+all the lines of the included file get prepended the same number of tabs, 
+so includes to indented sections get automatically indented.
+
 ## Configuration
 
 The following settings can be specified when initialising the plugin.
